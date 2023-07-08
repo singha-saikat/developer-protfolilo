@@ -7,7 +7,7 @@ body {
 }
 .conteinar {
   display: flex;
-  justify-content:space-between ;
+  justify-content: space-between;
   align-items: center;
   margin: 0px 150px;
 }
@@ -23,7 +23,7 @@ nav > ul {
   color: #fd6e0a;
 }
 .btn-primary {
-    color: rgb(252, 229, 229);
+  color: rgb(252, 229, 229);
   font-size: 20px;
   font-weight: 500;
   font-style: normal;
@@ -43,16 +43,79 @@ nav a {
   color: #474747;
 }
 /* header part start */
-.set-background{
-    background: #FFF8F3;
+.set-background {
+  background: #fff8f3;
+  background-image: url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.benar{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
-
+.benar {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.benar .profile-pic{
-    width: 400px;
+.benar .profile-pic {
+  width: 400px;
+}
+.benar-gretting {
+  font-size: 45px;
+  color: #474747;
+  margin-top: 0px;
+}
+.benar-gretting-2 {
+  color: var(--dark-01, #181818);
 
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.benar-decscription {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: #757575;
+  margin-top: 10px;
+  width: 585px;
+}
+.benar-contenent {
+  max-width: 500px;
+}
+
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0px;
+}
+.sectoin-tittle {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-deccription {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+.about-ifo-conteinar {
+  display: flex;
+  justify-content: space-between;
+}
+.info-tittle {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.about-info{
+    text-align: center;
 }
