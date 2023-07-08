@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content:space-between ;
   align-items: center;
+  margin: 0px 150px;
 }
 nav li {
   list-style: none;
@@ -40,4 +41,18 @@ nav > ul {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+/* header part start */
+.set-background{
+    background: #FFF8F3;
+}
+.benar{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.benar .profile-pic{
+    width: 400px;
+
 }
