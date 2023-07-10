@@ -96,6 +96,7 @@ nav a {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+  padding: 30px 0;
 }
 .section-deccription {
   color: #757575;
@@ -116,6 +117,83 @@ main {
   font-size: 20px;
   font-weight: 400;
 }
-.about-info{
-    text-align: center;
+.about-info {
+  text-align: center;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+#what-i-do-description {
+  padding: 30px 150px;
+}
+.skill-conteinar {
+  /* padding: 230px; */
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  width: 267px;
+  height: 350px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill img {
+  padding-top: 30px;
+  padding: 20px;
+}
+.skill-tittle {
+  padding: 0 20px;
+}
+.skill-description {
+  width: 80%;
+  padding: 20px;
+}
+.sammary-setion {
+  display: flex;
+  gap: 71px;
+}
+.sum-des {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+.sammary-setion h3{
+  color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sammary-setion h4{
+  color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sammary-setion h5{
+  color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+#btn-try{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom:100px;
 }
