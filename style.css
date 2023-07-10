@@ -32,6 +32,10 @@ nav > ul {
   border: 0;
   padding: 15px 35px;
 }
+.button-gap{
+ display: flex;
+ gap: 30px;
+}
 .nav-tittle {
   color: #181818;
   font-size: 45px;
@@ -161,39 +165,80 @@ main {
   font-size: 16px;
   font-weight: 400;
 }
-.sammary-setion h3{
+.sammary-setion h3 {
   color: var(--dark-02, #474747);
-font-family: Open Sans;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.sammary-setion h4{
+.sammary-setion h4 {
   color: var(--dark-02, #474747);
-font-family: Open Sans;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.sammary-setion h5{
+.sammary-setion h5 {
   color: var(--dark-03, #757575);
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-#btn-try{
+#btn-try {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.button-center{
+.button-center {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 70px;
-  margin-bottom:100px;
+  margin-bottom: 100px;
+}
+.input-field input {
+  display: block;
+  padding: 10px;
+  width: 461px;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+}
+.input-field textarea {
+  display: block;
+  padding: 10px;
+  width: 461px;
+  height: 180px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+}
+.footer-des {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  background: #fff8f3;
+  padding-top: 130px;
+}
+.footer-left {
+  width: 400px;
+  margin-left: 230px;
+}
+.footer-icon {
+  padding: 30px 0;
+}
+.from-info {
+  margin-right: 230px;
+}
+.button-resize {
+  padding-top: 24px;
+}
+.from-info h2{
+  padding-bottom: 8px;
 }
